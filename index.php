@@ -1,10 +1,8 @@
 <?php
 // $check=false;
+include 'config.php';
 if(isset($_POST['email'])){
-$server="localhost";
-$username="root";
-$password="tabiaserver2002!";
-$db="phpdb";
+
 
 $con=mysqli_connect($server,$username,$password,$db);
 if(!$con){
